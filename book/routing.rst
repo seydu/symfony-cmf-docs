@@ -467,10 +467,12 @@ follows::
 
             // link a content to the route
             $content = new StaticContent();
+            $content->setTitle('Projects');
+            $content->setBody('Projects');
             $content->setParentDocument($dm->find(null, '/cms/content'));
             $content->setName('my-content');
             $dm->persist($content);
-            $route->setRouteContent($content);
+            $route->setContent($content);
 
             // now define an id parameter; do not forget the leading slash if you
             // want /projects/{id} and not /projects{id}
