@@ -14,8 +14,8 @@ interface for Content Management Systems. It is designed to provide a modern,
 fully browser-based HTML5 environment for managing content. Create.js can be
 adapted to work on almost any content management backend. Create.js makes your
 content editable based on `RDF`_ information. The CreateBundle provides the
-means to load create.js, provide the RDF information and handle the save
-requests send by create.js.
+means to load create.js, provides the RDF information and handles the save
+requests sent by create.js.
 
 For WYSIWYG text, the default editor is `CKEditor`_, but you can also use
 the lightweight `hallo.js`_ editor bundled with the create.js distribution
